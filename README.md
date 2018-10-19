@@ -6,10 +6,6 @@ Each Docker image is installed with the following components:
 
 * Desktop environment [**Xfce4**](http://www.xfce.org) or [**IceWM**](http://www.icewm.org/)
 * VNC-Server (default VNC port `5901`)
-* [**noVNC**](https://github.com/novnc/noVNC) - HTML5 VNC client (default http port `6901`)
-* Browsers:
-  * Mozilla Firefox
-  * Chromium
   
 ![Docker VNC Desktop access via HTML page](.pics/vnc_container_view.png)
 
@@ -67,8 +63,6 @@ Usage is **similar** for all provided images, e.g. for `consol/centos-xfce-vnc`:
 If the container is started like mentioned above, connect via one of these options:
 
 * connect via __VNC viewer `localhost:5901`__, default password: `vncpassword`
-* connect via __noVNC HTML5 full client__: [`http://localhost:6901/vnc.html`](http://localhost:6901/vnc.html), default password: `vncpassword` 
-* connect via __noVNC HTML5 lite client__: [`http://localhost:6901/?password=vncpassword`](http://localhost:6901/?password=vncpassword) 
 
 
 ## Hints
